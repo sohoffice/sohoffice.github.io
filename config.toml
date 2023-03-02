@@ -1,0 +1,37 @@
+baseURL = 'https://blog.sohoffice.com/'
+languageCode = 'en-us'
+title = 'sohoffice blog'
+theme = 'm10c'
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
+#    [[menu.main]]
+#        identifier = "about"
+#        name = "About"
+#        url = "/about/"
+#        weight = 3
+
+[params]
+    author = 'Douglas Liu'
+    description = "The problem solving journey"
+    menu_item_separator = "<br/>"
+    [[params.social]]
+        icon = "github"
+        name = "Github"
+        url = "https://github.com/sohoffice"
+    [[params.social]]
+        icon = "linkedin"
+        name = "LiknedIn"
+        url = "https://www.linkedin.com/in/sohoffice/"
+
+#[params.style]
+#    primaryColor = "#006600"
