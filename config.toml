@@ -2,6 +2,7 @@ baseURL = 'https://blog.sohoffice.com/'
 languageCode = 'en-us'
 title = 'sohoffice blog'
 theme = 'm10c'
+googleAnalytics = 'G-XV1SSG9J86'
 
 [menu]
     [[menu.main]]
